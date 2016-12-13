@@ -1,153 +1,187 @@
-@-moz-document domain("mstr.my.salesforce.com") {
-    body.sfdcBody {
-        background: /*[[background]]*/
-        ;
-    }
-    /*[[logo]]*/
-    .zen .zen-tabMenu .zen-active {
-        background-image: none;
-    }
-    .zen .zen-headerBottom {
-        background: white;
-    }
-    .bPageTitle .metadata {
-        background: #ececec;
-    }
-    .todoList {
-        background: none;
-    }
-    body .btnSharing, body .btnImportant {
-        background: orange;
-    }
-    .detailList .requiredInput textarea, .detailList > .requiredInput .requiredBlock {
-        min-height: 300px;
-    }
-    .phHeaderCustomLogo #helpNavLabel, .phHeaderCustomLogo #notificationsNavLabel, .phHeaderCustomLogo #userNavLabel, body .phHeaderCustomLogo .multiforce .navLinks a {
-        color: white;
-    }
-    #sidebarDiv .sidebarModuleHeader, #sidebarDiv .sidebarModuleHeader h2 {
-        background: #263238;
-        border-radius: 5px;
-    }
-    #sidebarDiv .sidebarModule .sidebarModuleBody {
-        background: #f1f1f1;
-        border-radius: 5px;
-    }
-    #sidebarCell {
-        display: none;
-    }
-    .entityFeedLayout .lowerMainSection {
-        width: 100%
-    }
-    .entityFeedLayout .centerContent {
-        width: 100%;
-    }
-    .entityFeedLayout .rightContent {
-        padding-right: 30px;
-        display: none;
-    }
-    .mainContent .rightContent {
-        width: 20%;
-    }
-    .publishercontainer {
-        max-width: 100%;
-    }
-    .feedcontainer {
-        max-width: none;
-    }
-    .eCurrentMilestoneStatus {
-        padding: 0;
-    }
-    .efhpCenterTopRow {
-        font-size: 1.5em;
-    }
-    .efhpCenterTopRow {
-        border-bottom: solid;
-        border-color: lightgrey;
-        border-width: 1px;
-        margin-bottom: 0.5em;
-    }
-    .efhpCenterTopRow span:nth-child(3) {
-        font-weight: bold;
-    }
-    .efhpRightContent {
-        font-size: 120%;
-    }
-    .efhpRightContent .efhpFieldLabel {
-        width: auto;
-    }
-    .efhpTitle {
-        font-size: 1.5em;
-    }
-    .allMilestonesComplete {
-        line-height: 145px;
-    }
-    #InlineEditDialog {
-        max-width: 100% !important;
-        width: 70% !important;
-        height: 50%!important;
-    }
-    .cssDialog {
-        top: 25%;
-        left: 50%;
-    }
-    #InlineEditDialog textarea {
-        min-height: 200px;
-        height: 350px;
-        width: 100%;
-        min-width: 25%;
-        font-size: 1.2em;
-    }
-    #InlineEditDialog_buttons > input {
-        padding: 10px 17px 10px 17px;
-        margin-left: 10px;
-    }
-    #InlineEditDialog_buttons > input[value='OK'] {
-        font-weight: bold;
-    }
-    .feedcontainer .feeditemcontent {
-        max-height: 480px;
-        overflow-y: auto;
-    }
-    .feedcontainer .feeditemtextadditional {
-        max-height: 600px;
-    }
-    .feedcontainer .feeditem {
-        border-color: lightgrey;
-        border-width: 1px;
-        padding-top: 1em;
-    }
-    .eFilesWidget>.eWidgetBody {
-        height: 100%
-    }
-    .caseTab.editPage .lookupInput > input {
-        width: 300px;
-    }
-    .caseTab.editPage textarea, .caseTab.editPage #cas14 {
-        width: 80%;
-    }
-    .efhpDragHandle {
-        visibility: hidden;
-    }
-    .efhpCenterContent {
-        width: 65%!important;
-    }
-    .efhpRightContent {
-        width: 25%!important;
-        border-bottom: solid;
-        border-color: lightgrey;
-        border-width: 1px;
-    }
-    .feedcontainer .feeditem .preamblecontainer.displayblock {
-        font-weight: bold;
-    }
-    .efodBody {
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        word-break: break-word;
-        -ms-hyphens: auto;
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        hyphens: auto;
-    }
+/*Tab menu flat look (remove gradients)*/
+.zen .zen-tabMenu .zen-active {
+    background-image: none;
+}
+
+.zen .zen-headerBottom {
+    background: white;
+}
+
+.bPageTitle .metadata {
+    background: #ececec;
+}
+
+/*Remove todo list from home tab*/
+.todoList {
+    background: none;
+}
+
+body .btnSharing, body .btnImportant {
+    background: orange;
+}
+
+.detailList .requiredInput textarea, .detailList > .requiredInput .requiredBlock {
+    min-height: 300px;
+}
+
+.phHeaderCustomLogo #helpNavLabel, .phHeaderCustomLogo #notificationsNavLabel, .phHeaderCustomLogo #userNavLabel, body .phHeaderCustomLogo .multiforce .navLinks a {
+    color: white;
+}
+
+#sidebarDiv .sidebarModuleHeader, #sidebarDiv .sidebarModuleHeader h2 {
+    background: #263238;
+    border-radius: 5px;
+}
+
+#sidebarDiv .sidebarModule .sidebarModuleBody {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+#sidebarCell {
+    display: none;
+}
+
+.entityFeedLayout .lowerMainSection {
+    width: 100%
+}
+
+.entityFeedLayout .centerContent {
+    width: 100%;
+}
+
+.entityFeedLayout .rightContent {
+    padding-right: 30px;
+    display: none;
+}
+
+.mainContent .rightContent {
+    width: 20%;
+}
+
+.publishercontainer {
+    max-width: 100%;
+}
+
+.feedcontainer {
+    max-width: none;
+}
+
+.eCurrentMilestoneStatus {
+    padding: 0;
+}
+
+.efhpCenterTopRow {
+    font-size: 1.5em;
+}
+
+.efhpCenterTopRow {
+    border-bottom: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    margin-bottom: 0.5em;
+}
+
+.efhpCenterTopRow span:nth-child(3) {
+    font-weight: bold;
+}
+
+.efhpRightContent {
+    font-size: 120%;
+}
+
+.efhpRightContent .efhpFieldLabel {
+    width: auto;
+}
+
+.efhpTitle {
+    font-size: 1.5em;
+}
+
+.allMilestonesComplete {
+    line-height: 145px;
+}
+
+#InlineEditDialog {
+    max-width: 100% !important;
+    width: 70% !important;
+    height: 50%!important;
+}
+
+.cssDialog {
+    top: 25%;
+    left: 50%;
+}
+
+#InlineEditDialog textarea {
+    min-height: 200px;
+    height: 350px;
+    width: 100%;
+    min-width: 25%;
+    font-size: 1.2em;
+}
+
+#InlineEditDialog_buttons > input {
+    padding: 10px 17px 10px 17px;
+    margin-left: 10px;
+}
+
+#InlineEditDialog_buttons > input[value='OK'] {
+    font-weight: bold;
+}
+
+.feedcontainer .feeditemcontent {
+    max-height: 480px;
+    overflow-y: auto;
+}
+
+.feedcontainer .feeditemtextadditional {
+    max-height: 600px;
+}
+
+.feedcontainer .feeditem {
+    border-color: lightgrey;
+    border-width: 1px;
+    padding-top: 1em;
+}
+
+.eFilesWidget>.eWidgetBody {
+    height: 100%
+}
+
+.caseTab.editPage .lookupInput > input {
+    width: 300px;
+}
+
+.caseTab.editPage textarea, .caseTab.editPage #cas14 {
+    width: 80%;
+}
+
+.efhpDragHandle {
+    visibility: hidden;
+}
+
+.efhpCenterContent {
+    width: 65%!important;
+}
+
+.efhpRightContent {
+    width: 25%!important;
+    border-bottom: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+
+.feedcontainer .feeditem .preamblecontainer.displayblock {
+    font-weight: bold;
+}
+
+.efodBody {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
