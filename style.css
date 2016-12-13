@@ -1,4 +1,5 @@
-/*Tab menu flat look (remove gradients)*/
+/*FLAT LOOK (remove gradients, new colors, etc.)*/
+
 .zen .zen-tabMenu .zen-active {
     background-image: none;
 }
@@ -11,17 +12,12 @@
     background: #ececec;
 }
 
-/*Remove todo list from home tab*/
 .todoList {
     background: none;
 }
 
 body .btnSharing, body .btnImportant {
     background: orange;
-}
-
-.detailList .requiredInput textarea, .detailList > .requiredInput .requiredBlock {
-    min-height: 300px;
 }
 
 .phHeaderCustomLogo #helpNavLabel, .phHeaderCustomLogo #notificationsNavLabel, .phHeaderCustomLogo #userNavLabel, body .phHeaderCustomLogo .multiforce .navLinks a {
@@ -38,8 +34,25 @@ body .btnSharing, body .btnImportant {
     border-radius: 5px;
 }
 
+
+/*HIDING ELEMENTS*/
+
+/*Left panel in main tab*/
 #sidebarCell {
     display: none;
+}
+
+/*Followers in case tab*/
+.entityFeedLayout .rightContent {
+    padding-right: 30px;
+    display: none;
+}
+
+
+/*SPACE OPTIMIZATION*/
+
+.detailList .requiredInput textarea, .detailList > .requiredInput .requiredBlock {
+    min-height: 300px;
 }
 
 .entityFeedLayout .lowerMainSection {
@@ -48,11 +61,6 @@ body .btnSharing, body .btnImportant {
 
 .entityFeedLayout .centerContent {
     width: 100%;
-}
-
-.entityFeedLayout .rightContent {
-    padding-right: 30px;
-    display: none;
 }
 
 .mainContent .rightContent {
@@ -98,10 +106,12 @@ body .btnSharing, body .btnImportant {
     font-size: 1.5em;
 }
 
+/*Center green box with Done!*/
 .allMilestonesComplete {
     line-height: 145px;
 }
 
+/*MODAL DIALOGS*/
 #InlineEditDialog {
     max-width: 100% !important;
     width: 70% !important;
@@ -118,37 +128,47 @@ body .btnSharing, body .btnImportant {
     height: 350px;
     width: 100%;
     min-width: 25%;
+    /*Font size used in dialogs*/
     font-size: 1.2em;
 }
 
+/*Bigger dialog buttons*/
 #InlineEditDialog_buttons > input {
     padding: 10px 17px 10px 17px;
     margin-left: 10px;
 }
 
+/*OK in bold*/
 #InlineEditDialog_buttons > input[value='OK'] {
     font-weight: bold;
 }
 
+/*FEED*/
+
+/*Feed container size limited and with scroll*/
 .feedcontainer .feeditemcontent {
     max-height: 480px;
     overflow-y: auto;
 }
 
+/*Size of show less, more items*/
 .feedcontainer .feeditemtextadditional {
     max-height: 600px;
 }
 
+/*Line to split feed items*/
 .feedcontainer .feeditem {
     border-color: lightgrey;
     border-width: 1px;
     padding-top: 1em;
 }
 
+/*More space for file attachment panel*/
 .eFilesWidget>.eWidgetBody {
     height: 100%
 }
 
+/*NEW CASE*/
 .caseTab.editPage .lookupInput > input {
     width: 300px;
 }
@@ -157,14 +177,18 @@ body .btnSharing, body .btnImportant {
     width: 80%;
 }
 
+/*CASE NUMBER AND STATUS HEADER*/
+/*Remove manual resize*/
 .efhpDragHandle {
     visibility: hidden;
 }
 
+/*Set width of case details container*/
 .efhpCenterContent {
     width: 65%!important;
 }
 
+/*Set width of status and priority container*/
 .efhpRightContent {
     width: 25%!important;
     border-bottom: solid;
@@ -172,10 +196,12 @@ body .btnSharing, body .btnImportant {
     border-width: 1px;
 }
 
+/*Post title in bold*/
 .feedcontainer .feeditem .preamblecontainer.displayblock {
     font-weight: bold;
 }
 
+/*Break long links*/
 .efodBody {
     overflow-wrap: break-word;
     word-wrap: break-word;
