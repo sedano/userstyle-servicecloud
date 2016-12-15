@@ -168,6 +168,11 @@ body .btnSharing, body .btnImportant {
     height: 100%
 }
 
+/*New comment*/
+.casePublisher .detailContent .casePublisherText{
+    height:250px;
+}
+
 /*NEW CASE*/
 .caseTab.editPage .lookupInput > input {
     width: 300px;
