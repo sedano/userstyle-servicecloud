@@ -13,12 +13,12 @@ gulp.task('noComments', function () {
 
 gulp.task('parameters', ['noComments'], function () {
     return gulp.src(['parameters.css', './temp/style.css'])
-        .pipe(concat('fullstyle.css'))
-        .pipe(gulp.dest('temp'));
+        .pipe(concat('dist-style.css'))
+        .pipe(gulp.dest('dist'));
 });
 
 gulp.task('wrap', ['parameters'], function () {
-    return gulp.src('./temp/fullstyle.css')
+    return gulp.src('./dist/dist-style.css')
         .pipe(insert.wrap('@-moz-document domain("mstr.my.salesforce.com") { \n\n', '\n}'))
         .pipe(rename('userstyle.css'))
         .pipe(gulp.dest('dist'));
