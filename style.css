@@ -216,3 +216,8 @@ body .btnSharing, body .btnImportant {
     -webkit-hyphens: auto;
     hyphens: auto;
 }
+
+/*Case title text input*/
+#cas14{
+    width:80%!important;
+}
