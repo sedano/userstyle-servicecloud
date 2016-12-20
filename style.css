@@ -221,3 +221,24 @@ body .btnSharing, body .btnImportant {
 #cas14{
     width:80%!important;
 }
+
+/*Autocomplete on top of the text editor always visible*/
+#cke_publisherRichTextEditor_autoCompleteBoxId {
+    position: fixed;
+    top: 5px!important;
+    left: 5px!important;
+    width:500px!important;
+    min-height:20em;
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.75);
+}
+
+/*Add title to autocomplete box*/
+#cke_publisherRichTextEditor_autoCompleteBoxId::before { 
+    content: "Autocomplete";
+    font-weight: bold;
+    font-size:1.5em;
+    padding:12px;
+    line-height:1.7em;
+}
