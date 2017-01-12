@@ -285,3 +285,21 @@ body .btnSharing, body .btnImportant {
     padding: 12px;
     line-height: 1.7em;
 }
+
+
+/*NEW TASK*/
+
+
+/*Subject textbox*/
+
+#tsk5 {
+    width: 300px;
+}
+
+
+/*Comments textarea*/
+
+#tsk6 {
+    width: 430px;
+    height: 180px;
+}
