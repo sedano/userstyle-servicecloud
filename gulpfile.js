@@ -5,13 +5,13 @@ var rename = require("gulp-rename");
 var concat = require("gulp-concat");
 var del = require('del');
 
-gulp.task('noComments', function () {
+gulp.task('no-comments', function () {
     return gulp.src('style.css')
         .pipe(stripCssComments())
         .pipe(gulp.dest('temp'));
 });
 
-gulp.task('parameters', ['noComments'], function () {
+gulp.task('parameters', ['no-comments'], function () {
     return gulp.src(['parameters.css', './temp/style.css'])
         .pipe(concat('dist-style.css'))
         .pipe(gulp.dest('dist'));
