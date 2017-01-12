@@ -37,12 +37,16 @@ body .btnSharing, body .btnImportant {
 
 /*HIDING ELEMENTS*/
 
+
 /*Left panel in main tab*/
+
 #sidebarCell {
     display: none;
 }
 
+
 /*Followers in case tab*/
+
 .entityFeedLayout .rightContent {
     padding-right: 30px;
     display: none;
@@ -106,12 +110,16 @@ body .btnSharing, body .btnImportant {
     font-size: 1.5em;
 }
 
+
 /*Center green box with Done!*/
+
 .allMilestonesComplete {
     line-height: 145px;
 }
 
+
 /*MODAL DIALOGS*/
+
 #InlineEditDialog {
     max-width: 100% !important;
     width: 70% !important;
@@ -132,48 +140,65 @@ body .btnSharing, body .btnImportant {
     font-size: 1.2em;
 }
 
+
 /*Bigger dialog buttons*/
+
 #InlineEditDialog_buttons > input {
     padding: 10px 17px 10px 17px;
     margin-left: 10px;
 }
 
+
 /*OK in bold*/
+
 #InlineEditDialog_buttons > input[value='OK'] {
     font-weight: bold;
 }
 
+
 /*FEED*/
 
+
 /*Feed container size limited and with scroll*/
+
 .feedcontainer .feeditemcontent {
     max-height: 480px;
     overflow-y: auto;
 }
 
+
 /*Size of show less, more items*/
+
 .feedcontainer .feeditemtextadditional {
     max-height: 600px;
 }
 
+
 /*Line to split feed items*/
+
 .feedcontainer .feeditem {
     border-color: lightgrey;
     border-width: 1px;
     padding-top: 1em;
 }
 
+
 /*More space for file attachment panel*/
+
 .eFilesWidget>.eWidgetBody {
     height: 100%
 }
 
+
 /*New comment*/
-.casePublisher .detailContent .casePublisherText{
-    height:250px;
+
+.casePublisher .detailContent .casePublisherText {
+    height: 250px;
 }
 
+
 /*NEW CASE*/
+
 .caseTab.editPage .lookupInput > input {
     width: 300px;
 }
@@ -182,18 +207,26 @@ body .btnSharing, body .btnImportant {
     width: 80%;
 }
 
+
 /*CASE NUMBER AND STATUS HEADER*/
+
+
 /*Remove manual resize*/
+
 .efhpDragHandle {
     visibility: hidden;
 }
 
+
 /*Set width of case details container*/
+
 .efhpCenterContent {
     width: 65%!important;
 }
 
+
 /*Set width of status and priority container*/
+
 .efhpRightContent {
     width: 25%!important;
     border-bottom: solid;
@@ -201,12 +234,16 @@ body .btnSharing, body .btnImportant {
     border-width: 1px;
 }
 
+
 /*Post title in bold*/
+
 .feedcontainer .feeditem .preamblecontainer.displayblock {
     font-weight: bold;
 }
 
+
 /*Break long links*/
+
 .efodBody {
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -217,28 +254,34 @@ body .btnSharing, body .btnImportant {
     hyphens: auto;
 }
 
+
 /*Case title text input*/
-#cas14{
-    width:80%!important;
+
+#cas14 {
+    width: 80%!important;
 }
 
+
 /*Autocomplete on top of the text editor always visible*/
+
 #cke_publisherRichTextEditor_autoCompleteBoxId {
     position: fixed;
     top: 5px!important;
     left: 5px!important;
-    width:500px!important;
-    min-height:20em;
+    width: 500px!important;
+    min-height: 20em;
     -webkit-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.75);
 }
 
+
 /*Add title to autocomplete box*/
-#cke_publisherRichTextEditor_autoCompleteBoxId::before { 
+
+#cke_publisherRichTextEditor_autoCompleteBoxId::before {
     content: "Autocomplete";
     font-weight: bold;
-    font-size:1.5em;
-    padding:12px;
-    line-height:1.7em;
+    font-size: 1.5em;
+    padding: 12px;
+    line-height: 1.7em;
 }
